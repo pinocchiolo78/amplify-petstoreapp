@@ -24,7 +24,7 @@ function App() {
          <PetsIntroCollection
           overrideItems={({item, index}) => ({
             overrides: {
-              "colortxt": {color:"blue"},
+              "colortxt": {color:"green"},
               "Button/Profile": {onClick: ()=> alert(`"name: "  ${item.name}`) }
             }
           }) }
